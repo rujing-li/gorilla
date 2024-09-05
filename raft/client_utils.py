@@ -7,8 +7,8 @@ from env_config import read_env_config, set_env
 from os import environ, getenv
 import time
 from threading import Lock
-from azure.identity import DefaultAzureCredential, ManagedIdentityCredential
-from azure.identity import get_bearer_token_provider
+# from azure.identity import DefaultAzureCredential, ManagedIdentityCredential
+# from azure.identity import get_bearer_token_provider
 
 
 logger = logging.getLogger("client_utils")
